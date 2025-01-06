@@ -10,6 +10,7 @@ interface AnalysisSectionProps {
   onReviewSubmit: (values: { review: string }) => Promise<void>;
   onCsvUpload: (file: File) => Promise<void>;
   chartData: Array<{ name: string; value: number }>;
+  isAnalyzing: boolean;
 }
 
 export function AnalysisSection({
