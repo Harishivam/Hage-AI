@@ -51,7 +51,7 @@ export function calculateSentimentDistribution(
   });
 
   // Only return sentiments with values greater than 0
-  return distribution.filter(item => item.value > 0);
+  return distribution.filter(item => item.count > 0);
 }
 
 export function calculateFileStats(reviews: Review[]) {
