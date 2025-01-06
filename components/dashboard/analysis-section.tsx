@@ -18,6 +18,7 @@ export function AnalysisSection({
   onReviewSubmit,
   onCsvUpload,
   chartData,
+  isAnalyzing,
 }: AnalysisSectionProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
@@ -25,6 +26,7 @@ export function AnalysisSection({
         <ReviewForm
           onSubmit={onReviewSubmit}
           onCsvUpload={onCsvUpload}
+          isAnalyzing={isAnalyzing}
         />
         {currentAnalysis && <AnalysisDetails analysis={currentAnalysis} />}
       </div>
