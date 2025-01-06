@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Review Sentinel - Customer Reviews Analysis',
+  title: 'HAGE AI',
   description: 'Analyze customer reviews for sentiment and detect fake reviews',
 };
 
